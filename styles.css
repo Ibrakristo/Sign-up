@@ -1,0 +1,117 @@
+@font-face {
+    font-family: cool-font;
+    src: url(./fonts/Storm\ Gust.ttf);
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+div.container {
+    display: flex;
+}
+.thumbnail>img{
+    height: 100vh;
+}
+div.thumbnail {
+    font-family: cool-font;
+    position: relative;
+}
+
+div.thumbtalk {
+    box-sizing: border-box;
+    font-size: 72px;
+    width: 100%;
+    position: absolute;
+    top: 2.5em;
+    background-color: #00000080;
+    display: flex;
+    height: 2em;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    color: #E5E7EB;
+}
+
+div.thumbtalk img {
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    
+}
+.content form{
+    flex-grow: 1;
+    max-width: 1000px;
+}
+.ccontent h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ccontent {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E5E7EB;
+    box-shadow: 5px 5px 5px #00000020;
+    padding: 35px;
+    gap: 35px;
+}
+
+.ccontainer {
+    display: flex;
+    gap: 35px;
+}
+.ccontainer *{
+    flex: 1;
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+.ccontent div div {
+    display: flex;
+    flex-direction: column;
+}
+
+.ccontent input {
+    border:1px solid #E5E7EB;
+    padding: 5px;
+
+}
+
+.ccontent input:invalid {
+    border: 1px solid red;
+}
+
+.submitee{
+    margin: 30px 35px;
+}
+.ccontent input:focus {
+    border: 1px solid #5F9EA0;
+    box-shadow: 0px 8px 10px #00000040;
+}
+
+#submiter {
+    background-color: #596D48;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 12px;
+    border: none;
+    width: 220px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.submitee a:link{
+    text-decoration: none;
+    color: #596D48;
+}
+.submitee a:visited{
+    text-decoration: underline;
+    color: hotpink;
+}
