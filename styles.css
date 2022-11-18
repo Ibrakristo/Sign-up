@@ -12,9 +12,11 @@ body {
 div.container {
     display: flex;
 }
-.thumbnail>img{
+
+.thumbnail>img {
     height: 100vh;
 }
+
 div.thumbnail {
     font-family: cool-font;
     position: relative;
@@ -43,13 +45,15 @@ div.thumbtalk img {
     display: flex;
     align-items: center;
     width: 100vw;
-    
+
 }
-.content form{
+
+.content form {
     flex-grow: 1;
     max-width: 1000px;
 }
-.ccontent h1{
+
+.ccontent h1 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -67,7 +71,8 @@ div.thumbtalk img {
     display: flex;
     gap: 35px;
 }
-.ccontainer *{
+
+.ccontainer * {
     flex: 1;
     max-width: 250px;
     border-radius: 5px;
@@ -79,7 +84,7 @@ div.thumbtalk img {
 }
 
 .ccontent input {
-    border:1px solid #E5E7EB;
+    border: 1px solid #E5E7EB;
     padding: 5px;
 
 }
@@ -88,9 +93,10 @@ div.thumbtalk img {
     border: 1px solid red;
 }
 
-.submitee{
+.submitee {
     margin: 30px 35px;
 }
+
 .ccontent input:focus {
     border: 1px solid #5F9EA0;
     box-shadow: 0px 8px 10px #00000040;
@@ -107,11 +113,22 @@ div.thumbtalk img {
     margin-bottom: 20px;
 }
 
-.submitee a:link{
+.submitee a:link {
     text-decoration: none;
     color: #596D48;
 }
-.submitee a:visited{
-    text-decoration: underline;
+
+.submitee a:visited {
     color: hotpink;
+}
+
+#safe {
+    position: relative;
+}
+
+.dmatch {
+    position: absolute;
+    color: red;
+    font-size: 12px;
+    bottom: 0;
 }
