@@ -1,10 +1,12 @@
 function matching(e) {
     if (password.value == "" || confirmPassword.value == "") {
         password.setCustomValidity("");
+        safe.removeChild(doesntMatch);
         confirmPassword.setCustomValidity("");
     }
     else if (password.value == confirmPassword.value) {
         password.setCustomValidity("");
+        safe.removeChild(doesntMatch);
         confirmPassword.setCustomValidity("");
     }
     else {
